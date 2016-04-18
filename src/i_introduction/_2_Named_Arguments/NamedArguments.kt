@@ -15,8 +15,8 @@ fun usage() {
 fun todoTask2(): Nothing = TODO(
     """
         Task 2.
-        Implement the same logic as in 'task1' again through the library method 'joinToString()'.
-        Specify only two of the 'joinToString' arguments.
+        ライブラリメソッドの'joinToString()'を使って、'task1'と同じロジックを再び実装してください。
+        2つだけの引数を'joinToString'に指定してください。
     """,
     documentation = doc2(),
     references = { collection: Collection<Int> -> task1(collection); collection.joinToString() })
