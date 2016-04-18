@@ -5,19 +5,17 @@ import util.doc0
 
 fun todoTask0(): Nothing = TODO(
     """
-        Introduction:
+        導入:
 
-        Workshop tasks are usually to change the function 'taskN' by replacing its body
-        (which starts out as the function invocation 'todoTaskN()'), with the correct code according to the problem.
-        The function 'todoTaskN()' throws an exception, so you usually have to replace that invocation with
-        meaningful code.
+        ワークショップでは、問題に応じて正しいコードに本文を置き換えることで'taskN'の機能を変更します。
+        'todoTaskN()'は例外を投げますので、意味のあるコードに置き換えてください。
 
-        Using 'documentation' argument you can open the related part of Kotlin online documentation.
-        Press 'F1' (Quick Documentation) on 'doc0()', "See also" section gives you a link.
+        'documentation' argumentを使うと、Kotlinオンラインドキュメントの関連部分を参照できます。
+        'doc0()'の上にカーソルをもってきてm'F1'キーを押しください。"See also" にリンクがあります。
 
-        Using 'references' you can usually navigate and see the code mentioned in the task description.
+        'references'を使用すると、タスクの説明に言及されたコードを見れます。
 
-        To start please make the function 'task0' return "OK".
+        では、始めましょう！'task0'が "OK"を返すようにしてください。
     """,
     documentation = doc0(),
     references = { task0(); "OK" }
