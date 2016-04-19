@@ -6,10 +6,11 @@ import util.doc2
 fun todoTask3(): Nothing = TODO(
     """
         Task 3.
-        Several overloads of 'JavaCode3.foo()' can be replaced with one function in Kotlin.
-        Change the declaration of the function 'foo' in a way that makes the code using 'foo' compile.
-        You have to add parameters and replace 'todoTask3()' with a real body.
-        Uncomment the commented code and make it compile.
+        いくつかにオーバーロードされた'JavaCode3.foo()'はKotlinでは1つの関数に置き換えることができます。
+        コンパイル'foo'を使用してコードを作る方法で関数 'foo'での宣言を変更します。
+        'foo'関数の定義を変更し、コンパイルしてください。
+        パラメータを追加して、'todoTask3()'の処理を置き換えてください。
+        コードのコメントを外してコンパイルしてください。
     """,
     documentation = doc2(),
     references = { name: String -> JavaCode3().foo(name); foo(name) })

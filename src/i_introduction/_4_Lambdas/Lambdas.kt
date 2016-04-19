@@ -14,9 +14,9 @@ fun example() {
 fun todoTask4(collection: Collection<Int>): Nothing = TODO(
     """
         Task 4.
-        Rewrite 'JavaCode4.task4()' in Kotlin using lambdas.
-        You can find the appropriate function to call on 'collection' through IntelliJ IDEA's code completion feature.
-        (Don't use the class 'Iterables').
+        'JavaCode4.task4()'をラムダを用いたKotlinコードに置き換えてください。
+        IntelliJのIDEAのコード補完機能を使用して、'collection'を呼び出す適切な関数を見つけることができます。
+        ('Iterables'クラスは使わないように)。
     """,
     documentation = doc4(),
     references = { JavaCode4().task4(collection) })
