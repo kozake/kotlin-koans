@@ -17,7 +17,7 @@ fun eval(e: Expr): Int =
 fun todoTask8(expr: Expr): Nothing = TODO(
     """
         Task 8.
-        Rewrite 'JavaCode8.eval()' in Kotlin using smart casts and 'when' expression.
+        スマートキャストとwhen式を用いて'JavaCode8.eval()'をKotlinで書き換えてください。
     """,
     documentation = doc8(),
     references = { JavaCode8().eval(expr) })
