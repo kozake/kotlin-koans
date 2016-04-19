@@ -7,11 +7,10 @@ import java.util.*
 fun todoTask10(): Nothing = TODO(
     """
         Task 10.
-        Read about object expressions that play the same role in Kotlin as anonymous classes do in Java.
-
-        Add an object expression that provides a comparator to sort a list in a descending order using java.util.Collections class.
-        In Kotlin you use Kotlin library extensions instead of java.util.Collections,
-        but this example is still a good demonstration of mixing Kotlin and Java code.
+        KotlinでJavaの匿名クラスと同じ役割を果たしているオブジェクト式について説明します。
+        オブジェクト式を追加して、java.util.Collections クラスを用いて降順ソートする為のcomparatorを提供してください。
+        Kotlinでは、java.util.Collectionsの代わりにKotlinの拡張ライブラリを使用できます。
+        しかし、この例題はKotlinとJavaのコードを混合する良いデモです。
     """,
     documentation = doc10()
 )
