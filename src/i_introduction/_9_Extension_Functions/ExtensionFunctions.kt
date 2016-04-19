@@ -5,7 +5,7 @@ import util.doc9
 
 fun String.lastChar() = this.get(this.length - 1)
 
-// 'this' can be omitted
+// 'this' は省略できます。
 fun String.lastChar1() = get(length - 1)
 
 fun use() {
@@ -13,13 +13,14 @@ fun use() {
     "abc".lastChar()
 }
 
-// 'lastChar' is compiled to a static function in the class ExtensionFunctionsKt (see JavaCode9.useExtension)
+// 'lastChar' ExtensionFunctionsKtクラスのstataic関数としてコンパイルされます。
+// (JavaCode9.useExtensionを参照)
 
 fun todoTask9(): Nothing = TODO(
     """
         Task 9.
-        Implement the extension functions Int.r(), Pair<Int, Int>.r()
-        to support the following manner of creating rational numbers:
+        extension関数でInt.r(), Pair<Int, Int>.r()を実装してください。
+        これらは以下の呼び出しで分数の生成をサポートします。
         1.r(), Pair(1, 2).r()
     """,
     documentation = doc9(),
