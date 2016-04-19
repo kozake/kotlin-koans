@@ -6,12 +6,13 @@ import util.doc12
 fun todoTask12(): Nothing = TODO(
     """
         Task 12.
-        In Kotlin standard library there are lots of extension functions that make the work with collections more convenient.
-        Rewrite the previous example once more using an extension function 'sortedDescending'.
+        Kotlin標準ライブラリにはコレクション操作をより便利にする拡張機能がたくさんあります。
+        拡張機能を使用して、もう一度前の例を'sortedDescending'拡張関数を用いて書き直してください。
 
-        Kotlin code can be easily mixed with Java code.
-        Thus in Kotlin we don't introduce our own collections, but use standard Java ones (slightly improved).
-        Read about read-only and mutable views on Java collections.
+        Kotlinコードは簡単にJavaコードと混合できます。
+        したがって、Kotlinでは独自のコレクションを導入していません。標準のJavaのものを使用しています（若干改善）。
+
+        Javaコレクションによる「read-only and mutable views」について読んでください。
     """,
     documentation = doc12()
 )
