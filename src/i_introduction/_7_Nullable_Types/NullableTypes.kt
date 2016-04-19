@@ -15,8 +15,9 @@ fun test() {
 fun todoTask7(client: Client?, message: String?, mailer: Mailer): Nothing = TODO(
     """
         Task 7.
-        Rewrite JavaCode7.sendMessageToClient in Kotlin, using only one 'if' expression.
-        Declarations of Client, PersonalInfo and Mailer are given below.
+        JavaCode7.sendMessageToClientをKotlinで書き換えてください。
+        その際、if式を1つだけ使用してください。
+        Client、PersonalInfoやMailerの定義は次の通りです。
     """,
     documentation = doc7(),
     references = { JavaCode7().sendMessageToClient(client, message, mailer) }
