@@ -7,10 +7,10 @@ import java.util.*
 fun todoTask11(): Nothing = TODO(
     """
         Task 11.
-        When an object implements a SAM interface (one with a Single Abstract Method), you can pass a lambda instead.
-        Read more about SAM conversions in the blog posts about Kotlin.
+        SAMインターフェース (Single Abstract Method)のオブジェクトを実装するとき、代わりにラムダ式を使う事が出来ます。
+        KotlinでのSAM変換についての詳細はブログ記事を読んでください。
 
-        Rewrite the previous example changing an object expression to a lambda.
+        以下の例題をラムダによるオブジェクト式に変更してください。
     """,
     documentation = doc11()
 )
