@@ -9,12 +9,12 @@ fun example1(list: List<Int>) {
 }
 
 fun Shop.getCitiesCustomersAreFrom(): Set<City> {
-    // 顧客の街のSetを返します。
+    // CustomerのCityのSetを返します。
     todoCollectionTask()
 }
 
 fun Shop.getCustomersFrom(city: City): List<Customer> {
-    // 指定された街に住んでいる顧客のListを返します。
+    // 指定されたCityに住んでいるCustomerのListを返します。
     todoCollectionTask()
 }
 
