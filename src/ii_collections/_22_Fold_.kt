@@ -5,7 +5,7 @@ fun example9() {
     result == 24
 }
 
-// The same as
+// 以下と同じ
 fun whatFoldDoes(): Int {
     var result = 1
     listOf(1, 2, 3, 4).forEach { element -> result = element * result}
@@ -13,7 +13,7 @@ fun whatFoldDoes(): Int {
 }
 
 fun Shop.getSetOfProductsOrderedByEveryCustomer(): Set<Product> {
-    // Return the set of products ordered by every customer
+    // 全customerにOrderされたProductsのSetを返します。
     return customers.fold(allOrderedProducts, {
         orderedByAll, customer ->
         todoCollectionTask()
