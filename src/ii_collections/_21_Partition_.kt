@@ -11,6 +11,6 @@ fun example8() {
 }
 
 fun Shop.getCustomersWithMoreUndeliveredOrdersThanDelivered(): Set<Customer> {
-    // Return customers who have more undelivered orders than delivered
+    // deliveredよりundeliveredが多いcustomerを返します。
     todoCollectionTask()
 }

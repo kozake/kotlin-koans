@@ -5,7 +5,7 @@ fun example6() {
 }
 
 fun Customer.getTotalOrderPrice(): Double {
-    // Return the sum of prices of all products that a customer has ordered.
-    // Note: a customer may order the same product for several times.
+    // CustomerがOrderした全Productsのpriceの合計を返します。
+    // 注意：Customerは同じProductを数回Orderするかもしれません。
     todoCollectionTask()
 }
