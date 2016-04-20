@@ -8,11 +8,11 @@ fun example() {
 }
 
 val Customer.orderedProducts: Set<Product> get() {
-    // Return all products ordered by customer
+    // CustomerがOrderした全てのProductを返します。
     todoCollectionTask()
 }
 
 val Shop.allOrderedProducts: Set<Product> get() {
-    // Return all products that were ordered by at least one customer
+    // 少なくとも一人のCustomerからOrderされたProductを返します。
     todoCollectionTask()
 }
