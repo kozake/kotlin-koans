@@ -6,11 +6,11 @@ fun example4() {
 }
 
 fun Shop.getCustomerWithMaximumNumberOfOrders(): Customer? {
-    // Return a customer whose order count is the highest among all customers
+    // 全Customerの中で一番Order数が多いCustomerを返します。
     todoCollectionTask()
 }
 
 fun Customer.getMostExpensiveOrderedProduct(): Product? {
-    // Return the most expensive product which has been ordered
+    // Orderした中で一番高いProductを返します。
     todoCollectionTask()
 }
