@@ -6,9 +6,9 @@ import util.doc26
 fun todoTask27(): Nothing = TODO(
     """
         Task 27.
-        Uncomment the commented code and make it compile.
-        To make '..' work implement a 'MyDate.rangeTo()' extension function returning DateRange.
-        Add all changes to the file MyDate.kt.
+        コメント行のコメントを外してコンパイルしてください。
+        '..'は、DateRangeを返す'MyDate.rangeTo()'拡張関数として作成します。
+        全ての変更はMyDate.kt ファイルへ行ってください。
     """,
     documentation = doc26()
 )
