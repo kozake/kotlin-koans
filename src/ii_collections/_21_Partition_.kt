@@ -3,7 +3,7 @@ package ii_collections
 fun example8() {
     val numbers = listOf(1, 3, -4, 2, -11)
 
-    // The details (how multi-assignment works) will be explained later in the 'Conventions' task
+    // 複数の変数に割り当てる仕組みの詳細は、'Conventions'の章で説明します。
     val (positive, negative) = numbers.partition { it > 0 }
 
     positive == listOf(1, 3, 2)
