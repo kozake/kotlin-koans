@@ -21,11 +21,11 @@ fun iterateOverRange() {
 fun todoTask28(): Nothing = TODO(
     """
         Task 28.
-        Uncomment the commented code and make it compile.
-        Add all changes to the file MyDate.kt.
-        Make the class DateRange implement Iterable<MyDate>.
-        You can use object expression or declare an extra class to implement Iterator<MyDate>.
-        Use the utility function 'MyDate.nextDay()'.
+        コメント行のコメントを外してコンパイルしてください。
+        全ての変更はMyDate.kt ファイルへ行ってください。
+        DateRangeクラスにIterable<MyDate>を実装してください。
+        オブジェクト式を使用するか、Iterator<MyDate>を実装する別のクラスを宣言することで実現できます。
+        便利関数の'MyDate.nextDay()'を使用してください。
     """,
     documentation = doc28(),
     references = { date: MyDate -> DateRange(date, date.nextDay()) })
