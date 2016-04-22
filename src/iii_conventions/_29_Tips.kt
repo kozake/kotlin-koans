@@ -3,10 +3,10 @@ package iii_conventions
 fun todoTask29_2(): Nothing = TODO(
     """
         Task29.2.
-        Support adding several time intervals to a date.
-        Add an extra class for storing the time interval and the number of intervals,
-        e.g. 'class RepeatedTimeInterval(val ti: TimeInterval, val n: Int)'.
-        Add an extension function 'times' to TimeInterval, constructing the value of this class.
-        Add an extension function 'plus' to MyDate, taking a RepeatedTimeInterval as an argument.
+        dataにTimeIntervalの足し算のをサポートします。
+        別のクラスではTimeIntervalとその間隔数を保持します。
+        例えば、'class RepeatedTimeInterval(val ti: TimeInterval, val n: Int)'.
+        TimeIntervalに'times'拡張関数を追加し、このクラスの値を生成します。
+        MyDateへ引数としてRepeatedTimeIntervalを取る'plus()'拡張関数を追加してください。
     """
 )

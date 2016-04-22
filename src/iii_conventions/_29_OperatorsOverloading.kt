@@ -1,19 +1,18 @@
 package iii_conventions
 
 import util.TODO
-import iii_conventions.TimeInterval.*
 
 fun todoTask29(): Nothing = TODO(
     """
         Task 29.
-        Implement a kind of date arithmetic. Support adding years, weeks and days to a date.
-        Use classes MyDate and TimeInterval.
-        Use a utility function MyDate.addTimeIntervals.
-        Uncomment the commented line and make it compile.
+        日付計算を実装します。日付に年、月、週と日をサポートします。
+        MyDateとTimeIntervalクラスを使用してください。
+        便利関数であるMyDate.addTimeIntervalsを使用してください。
+        コメント行のコメントを外してコンパイルしてください。
 
-        (1). Add an extension function 'plus()' to MyDate, taking a TimeInterval as an argument.
-        (2). Support adding several time intervals to a date. Add an extra class.
-        If you have any problems, see the iii_conventions/_29_Tips.kt file.
+        (1). MyDateへ引数としてTimeIntervalを取る'plus()'拡張関数を追加してください。
+        (2). dateにTimeIntervalの足し算をサポートします。他のクラス追加が必要です。
+        何か問題がある場合は、iii_conventions/_29_Tips.ktファイルを参照してください。
     """,
     references = { date: MyDate, timeInterval: TimeInterval ->
         date.addTimeIntervals(timeInterval, 1)
