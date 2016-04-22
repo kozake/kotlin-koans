@@ -9,12 +9,12 @@ import kotlin.reflect.KProperty
 fun todoTask35(): Nothing = TODO(
     """
         Task 35.
-        A delegate expression must have special 'get' and 'set' methods.
-        You can see their signatures below (as members of the 'ReadWriteProperty' interface).
+        delegate式は'get'と'set'のメソッドを持つ必要があります。
+        以下の記述にそれをみることができます。（ReadWriteProperty'インターフェースのメンバーとして）
 
-        Implement the members of the class 'EffectiveDate' so it can be delegated to.
-        Store only the time in milliseconds in 'timeInMillis' property.
-        Use the extension functions 'MyDate.toMillis' and 'Long.ToDate'.
+        'EffectiveDate'クラスのメンバをそれに委譲するよう実装します。
+        'timeInMillis'プロパティでミリ秒のみ保持してください。
+        'MyDate.toMillis'と'Long.ToDate'の拡張関数を使ってください。
     """,
     references = { date: MyDate -> date.toMillis().toDate()}
 )

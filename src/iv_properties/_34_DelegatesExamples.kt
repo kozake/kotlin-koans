@@ -10,7 +10,7 @@ class LazyPropertyUsingDelegates(val initializer: () -> Int) {
 fun todoTask34(): Lazy<Int> = TODO(
     """
         Task 34.
-        Read about delegated properties and make the property lazy by using delegates.
+        delegated propertiesの記事を読んだ後、delegatesを使って怠惰なプロパティを作ってください。
     """,
     documentation = doc34()
 )

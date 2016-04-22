@@ -9,11 +9,10 @@ class LazyProperty(val initializer: () -> Int) {
 fun todoTask33(): Nothing = TODO(
     """
         Task 33.
-        Add a custom getter to make the 'lazy' val really lazy.
-        It should be initialized by the invocation of 'initializer()'
-        at the moment of the first access.
-        You can add as many additional properties as you need.
-        Do not use delegated properties!
+        カスタムgetterを追加し、'lazy'を怠惰な値にしてください。
+        最初のアクセス時に'initializer()'の実行で値は初期化してください。
+        必要に応じて、いくつかのプロパティを追加することができます。
+        delegated propertiesは使用しない事！
     """,
     references = { LazyProperty({ 42 }).lazy }
 )
